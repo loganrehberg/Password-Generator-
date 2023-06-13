@@ -1,9 +1,20 @@
 // used https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt for prompt window
 // used https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm for confirm window
-// Assignment Code
+// https://www.youtube.com/watch?v=x4HUaiazDes used to point myself in the right direction 
+//Assignment Code
 var generateBtn = document.querySelector("#generate");
+// Prompt user for password 
+// Length 8 to 128
+// included lowercase, uppercase, numbers, special characters|
+// Validate the input
+// Generate password based on criteria
 
-function generatePassword();
+
+function generatePassword() {
+  return "Generated password here"
+}
+prompt("How long would you like your password to be?");
+confirm("Would you like there to be special characters, lowercase, uppercase, or numeric values? ")
 
 // Write password to the #password input
 function writePassword() {
