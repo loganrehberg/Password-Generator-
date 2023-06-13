@@ -11,6 +11,8 @@ var generateBtn = document.querySelector("#generate");
 
 
 function generatePassword() {
+  var length = prompt("Enter the length of the password (between 8 and 128 characters):");
+  length=parseInt(length)
   return "Generated password here"
 }
 prompt("How long would you like your password to be?");
