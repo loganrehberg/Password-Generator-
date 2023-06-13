@@ -1,6 +1,10 @@
 # Password Generator
 This is a simple web-based application that generates secure passwords based on user-defined criteria. It allows users to specify the length of the password and select from various character types, including lowercase letters, uppercase letters, numeric digits, and special characters.
 
+
+![Alt text](C:\Users\fuzzy\bootcamp\classwork\NU-VIRT-FSF-PT-05-2023-U-LOLC\03-JavaScript\02-Challenge\Develop\assets\image "<Screenshot of the >")
+
+
 Features
 User-friendly interface: The application provides an intuitive and easy-to-use interface for generating passwords.
 Customizable password criteria: Users can select the desired password length (between 8 and 128 characters) and choose which character types to include.
