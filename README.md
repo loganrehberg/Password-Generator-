@@ -2,7 +2,8 @@
 This is a simple web-based application that generates secure passwords based on user-defined criteria. It allows users to specify the length of the password and select from various character types, including lowercase letters, uppercase letters, numeric digits, and special characters.
 
 
-![Alt text](assets\image/image.png"<Screenshot of the project>")
+![Alt text](/assets/images/screenshot.png "<title>")
+
 
 
 Features
