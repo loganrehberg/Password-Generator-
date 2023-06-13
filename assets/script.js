@@ -38,19 +38,19 @@ function generatePassword() {
   const specialChars = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
 
   let availableChars = "";
-  if (lowercaseChars) {
+  if (includeLowercase) {
     availableChars += lowercaseChars;
   }
 
-  if (uppercaseChars) {
+  if (includeUppercase) {
     availableChars += uppercaseChars;
   }
 
-  if (numericChars) {
+  if (includeNumeric) {
     availableChars += numericChars;
   }
 
-  if (specialChars) {
+  if (includeSpecial) {
     availableChars += specialChars;
   }
 
