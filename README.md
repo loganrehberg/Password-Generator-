@@ -2,7 +2,7 @@
 This is a simple web-based application that generates secure passwords based on user-defined criteria. It allows users to specify the length of the password and select from various character types, including lowercase letters, uppercase letters, numeric digits, and special characters.
 
 
-![Alt text](/assets/images/screenshot.png "<title>")
+![image](https://github.com/loganrehberg/Password-Generator-/assets/127784358/9299652f-bfbd-49e0-bc6b-2ee1abff28bc)
 
 
 
