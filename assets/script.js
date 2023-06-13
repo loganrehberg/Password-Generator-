@@ -2,7 +2,7 @@
 // used https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm for confirm window
 // https://www.youtube.com/watch?v=x4HUaiazDes used to point myself in the right direction
 //Assignment Code
-var generateBtn = document.querySelector("#generate");
+const generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
   var length = prompt(
@@ -21,7 +21,7 @@ function generatePassword() {
   const includeLowercase = confirm("Include lowercase characters?");
   const includeUppercase = confirm("Include uppercase characters?");
   const includeNumeric = confirm("Include numeric characters?");
-  var includeSpecial = confirm("Include special characters?");
+  const includeSpecial = confirm("Include special characters?");
 
   if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial){
     alert("Please select at least one character to type");
@@ -62,8 +62,7 @@ function generatePassword() {
 return password;
 }
 
-// prompt("How long would you like your password to be?");
-// confirm("Would you like there to be special characters, lowercase, uppercase, or numeric values? ")
+
 
 // Write password to the #password input
 function writePassword() {
